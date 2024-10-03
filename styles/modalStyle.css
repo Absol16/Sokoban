@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-btn{
+    padding: 10px 14px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modal-container{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.modal-container.active {
+    display: block;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+}
+
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #333333d3;
+}
+
+.modal {
+    width: 95%;
+    max-width: 500px;
+    min-width: 300px;
+    padding:30px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal h1 {
+    margin-bottom: 1Opx;
+    font-weight: 500;
+}
+
+.modal p{
+    line-height: 1.4;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sokoban – Webg2</title>
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/modalStyle.css">
+<link rel="icon" type="image/x-icon" href="/img/box.png">
+</head>
+<body>
+<h1>Sokoban - Mario</h1>
+<main>
+    <div class="modal-container">
+        <div class="overlay modal-trigger">
+            <div class="modal">
+                <h2>Mode d'emploie</h2>
+                <p>Aider vous des fleches directionnel afin de vous diriger de case en case</p>
+                <p>Lorsque vous vous retrouverez bloqué, un bouton de retour à zero est mit
+                    a votre disposition afin de recommencer le niveau.
+                </p>
+                <p>Lorsque vous terminez un niveau, appuyer sur la barre d'espace, afin de passer au niveau suivant.</p>
+            </div>
+        </div>
+    </div>
+    <div id="compteur">
+        <h3 id="cpt">COMPTEUR</h3>
+    </div>
+    <div id="details"></div>
+<div id="container">
+    <div id="world"></div>
+    <button id="retryBtn">retry level</button>
+    <button id="undoBtn">undo</button>
+    <button class="modal-btn modal-trigger">Help</button>
+</div>
+</main>
+<footer> Aïssar Mekhloufi  g56873</footer>
+<script src="scripts/game.js"></script>
+<script src="scripts/levels.js"></script>
+<script src="scripts/square.js"></script>
+<script src="scripts/Position.js"></script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/modalWindow.js"></script>
+<script src="scripts/state.js"></script>
+<script src="scripts/undo.js"></script>
+</body>
+</html>

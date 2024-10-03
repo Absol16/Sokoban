@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "name": "sokoban",
+  "description": "Ce dépot contient une version de Sokoban écrite en JavaScript. Pour y jouer, ouvrez le fichier `index.html` dans votre navigateur préféré.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "eslint": "^7.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.esi-bru.be/webg2-etd/2022/projet2/56873.git"
+  }
+}
